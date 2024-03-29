@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Faq from "react-faq-component";
 
 const data = {
@@ -31,11 +31,12 @@ const data = {
 };
 
 const styles = {
-    // bgColor: 'white',
+    rowTitleTextSize: '24px',
+    rowTitleFontWeight: 'black', // Add this line to increase font weight
     titleTextColor: "black",
     rowTitleColor: "black",
-    // rowContentColor: 'grey',
-    // arrowColor: "red",
+    rowContentTextSize: '18px',
+    rowContentPaddingBottom:'1rem',
 };
 
 const config = {

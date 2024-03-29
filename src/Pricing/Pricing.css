@@ -12,7 +12,7 @@
     top: 0;
     left: 0;
 
-    z-index: 999;
+    z-index: 99;
     background-color: #fff; /* Add background color as needed */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect if desired */
 }

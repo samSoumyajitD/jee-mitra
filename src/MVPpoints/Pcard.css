@@ -1,0 +1,46 @@
+.pointcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 2rem;
+    
+}
+.pointcarditem{
+    width: 300px;
+    height: 325px;
+    border: 1px solid rgb(178, 175, 184);
+    border-radius: 10px;
+   
+}
+.pointcardimg{
+    padding: 3rem 2rem 2rem 2rem;
+}
+.pointcardhead{
+    padding: 0 0 1rem 0;
+    font-size: 30px;
+    font-weight: 550;
+}
+.pointcardchar{
+    font-size: 15px;
+    padding: 0 2rem 1rem 2rem;
+    font-weight: 500;
+    color: #7d7777;
+}
+.helpp{
+    text-align: center;
+    padding: 4rem;
+}
+.helpphead{
+    font-size: 32px;
+    font-weight: 550;
+    padding: 1rem 0 2rem 0;
+}
+.helpbutton{
+    display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 1rem 2rem;
+}
