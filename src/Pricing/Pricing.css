@@ -1,0 +1,126 @@
+.pricing{
+    position: sticky;
+    padding:  2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+}
+.pricing.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff; /* Add background color as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect if desired */
+}
+.compp{
+    padding: 2rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.pricecard{
+
+    
+    text-align: center;
+    padding: 2rem;
+    width: 250px;
+}
+.pricecardbutton,.pricecardbutton1{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+}
+.pricecardbutton button{
+    font-weight: 500;
+
+  padding: .5rem 4rem;
+  border-radius: 100px;
+  border: none;
+}
+.pricecardbutton1 button{
+    color: #fff;
+    font-size: 14px;
+   background-color: rgb(17, 125, 197);
+    border-radius: 3px;
+  border: none;
+  padding: .75rem 1rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  cursor: pointer;
+  font-weight: 550;
+}
+.pricecardbutton1 button:hover{
+    background-color: rgb(19, 104, 160);
+
+}
+.pricechar{
+    font-size: 18px;
+    border-bottom: 2px solid aqua;
+    padding: 1rem .5rem;
+    font-weight: 500;
+    margin: 0 1rem;
+}
+.pricenum{
+    font-weight: 550;
+    font-size: 32px;
+    padding: 2rem .5rem;
+}
+.compp1{
+    font-size: 32px;
+    width: 200px;
+    font-weight: 600;
+}
+.compp svg{
+    border-radius: 50%;
+background-color: aqua;
+color: #ffff;
+}
+.features{
+    margin: 0 4rem;
+    border-bottom: 2px solid rgb(191, 193, 199);
+display: flex;
+justify-content: center;
+align-items: center;
+padding:  2rem 0 2rem 8rem;
+
+}
+.feature1{
+    padding: 2rem 0;
+  width: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.feature12{
+    font-weight: 550;
+    align-content: center;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.feature121{
+    padding: .2rem 0rem .2rem 1rem;
+}
+.feature13{
+    padding: 1rem 0 1rem 2rem;
+    font-size: 16px;
+    font-weight: 500;
+    color: #484242;
+}
+.featureicon{
+    padding: .2rem;
+}
+.ftick{
+    padding: 2rem  4rem;
+    font-size: 2.5rem;
+
+    display: flex;
+   width: 200px;
+    justify-content: center;
+
+}

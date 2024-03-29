@@ -1,0 +1,211 @@
+@import url(https://db.onlinewebfonts.com/c/03af38e6d90add293d43f1ef74ce755f?family=Adieu+Regular);
+@import url(https://db.onlinewebfonts.com/c/03af38e6d90add293d43f1ef74ce755f?family=Adieu+Bold);
+
+.timeline {
+    font-family: sans-serif;
+    text-align: center;
+
+  position: fixed;
+  }
+  .vertical-timeline::before {
+    /* this is the vertical line */
+  
+    background: black !important;
+  }
+  
+  .empty {
+    height: 600px;
+    border: 1px solid red;
+  }
+  .navls{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+   padding: 1.5rem 8rem;
+  
+  }
+  
+  .navls1{
+    gap: 40px;
+    list-style: none;
+    display: flex;
+    padding: 1.5rem 8rem;
+  }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .jeem{
+    font-size: 45px;
+    font-weight: 600;
+
+  }
+  .jeem1{
+    font-size: 20px;
+    font-weight: 550;
+    padding-top: 1.5rem;
+  
+  }
+  .herosec1 h1{
+    font-size: 64px;
+    font-weight: 500;
+    
+  }
+  .herosec1 span{
+    font-weight: 600;
+    color: aqua;
+  }
+  .herosec1 h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #494747;
+    padding: 2rem 0;
+  }
+  .herosection{
+  width: 550px;
+    padding: 5rem 0rem 4rem 8rem;
+  }
+  .button {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding-block: 0.5rem;
+    padding-inline: 1.25rem;
+    background-color: rgb(17, 125, 197);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    gap: 10px;
+    font-weight: bold;
+ border: none;
+    outline: none;
+   
+  padding: 1rem 2rem;
+ font-size: 18px;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+    border-color: #fff9;
+  }
+  
+  .button:hover .icon {
+    transform: translate(4px);
+  }
+  
+  .button:hover::before {
+    animation: shine 1.5s ease-out infinite;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
+  }
+  
+  @keyframes shine {
+    0% {
+      left: -100px;
+    }
+  
+    60% {
+      left: 100%;
+    }
+  
+    to {
+      left: 100%;
+    }
+  }
+  .btn1 {
+  
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .btn1 {
+    --primary-color: #111;
+    --hovered-color: #111;
+    position: relative;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .btn1 p {
+    margin: 0;
+    position: relative;
+    font-size: 20px;
+    color: var(--primary-color);
+  }
+  
+  .btn1::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background: var(--hovered-color);
+    height: 3px;
+    transition: 0.3s ease-out;
+  }
+  
+  .btn1 p::before {
+    position: absolute;
+    /*   box-sizing: border-box; */
+ 
+    width: 0%;
+    inset: 0;
+    color: var(--hovered-color);
+    overflow: hidden;
+    transition: 0.3s ease-out;
+  }
+  
+  .btn1:hover::after {
+    width: 100%;
+  }
+  
+  .btn1:hover p::before {
+    width: 100%;
+  }
+  
+ /* Add this CSS to your existing styles or create a new CSS file */
+.vertical-timeline::after {
+  content: "";
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 2px;
+  background-color: #ccc; /* Change color as needed */
+  z-index: 999;
+  transition: opacity 0.5s;
+  opacity: 0; /* Initially hide the line */
+}
+
+.vertical-timeline--show-line::after {
+  opacity: 1; /* Show the line when scrolled */
+}

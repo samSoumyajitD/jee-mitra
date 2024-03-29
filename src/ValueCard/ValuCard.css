@@ -1,0 +1,21 @@
+.valcard{
+    display: flex;
+    padding: 2rem 4rem;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.valnum{
+    font-size: 64px;
+    font-weight: 550;
+}
+.valchar{
+    font-size: 24px;
+    font-weight: 550;
+    padding:0 0 .5rem 0;
+}
+.valdiv{
+  height: 4px;
+width: 200px;
+ background-color: aqua;
+}
