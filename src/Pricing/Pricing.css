@@ -1,5 +1,5 @@
 .pricing{
-  
+ 
     padding:  2rem 4rem;
     display: flex;
     align-items: center;
@@ -11,7 +11,7 @@
     position:sticky;
     top: 0;
     left: 0;
-    width: 100%;
+
     z-index: 999;
     background-color: #fff; /* Add background color as needed */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect if desired */
@@ -86,11 +86,11 @@ color: #ffff;
 display: flex;
 justify-content: center;
 align-items: center;
-padding:  2rem 0 2rem 8rem;
+padding:  2rem 0 ;
 
 }
 .feature1{
-    padding: 2rem 0;
+    padding: 2rem 3rem 2rem 0;
   width: 300px;
     justify-content: center;
     align-items: center;
@@ -116,11 +116,11 @@ padding:  2rem 0 2rem 8rem;
     padding: .2rem;
 }
 .ftick{
-    padding: 2rem  4rem;
-    font-size: 2.5rem;
+    padding: 2rem  ;
+    font-size: 3rem;
+text-align: center;
 
-    display: flex;
-   width: 200px;
+   width: 250px;
     justify-content: center;
 
 }
