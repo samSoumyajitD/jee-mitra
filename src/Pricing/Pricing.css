@@ -1,5 +1,5 @@
 .pricing{
-    position: sticky;
+  
     padding:  2rem 4rem;
     display: flex;
     align-items: center;
@@ -8,7 +8,7 @@
 
 }
 .pricing.sticky {
-    position: fixed;
+    position:sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -123,4 +123,7 @@ padding:  2rem 0 2rem 8rem;
    width: 200px;
     justify-content: center;
 
+}
+.empty{
+    height: 300px;
 }

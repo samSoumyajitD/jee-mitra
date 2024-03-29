@@ -111,6 +111,7 @@ handleScroll = () => {
                 <div className='ftick'><FontAwesomeIcon icon={faCheck} /></div>
                 
               </div>
+          
             </div>
         );
     }
